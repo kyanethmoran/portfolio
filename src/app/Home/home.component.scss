@@ -34,12 +34,17 @@ button:hover {
   flex-direction: column;
 }
 .bg-img {
-  height: 40vh;
-  background-image: url("../../assets/images/homepage/mobile/image-homepage-hero.jpg");
-  background-size: cover;
+  height: 15vh;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
 
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 
   justify-items: space-around;
 }
@@ -47,4 +52,22 @@ button:hover {
 .center {
   align-items: center;
   justify-content: center;
+}
+
+.line {
+  border: 5px solid #203a4c;
+  width: 80%;
+}
+
+@media screen and (min-width: 450px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .selfie {
+    max-width: 35vw;
+  }
+  .line {
+    display: none;
+  }
 }
