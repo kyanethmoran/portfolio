@@ -65,9 +65,14 @@ button:hover {
     flex-direction: row;
   }
   .selfie {
-    max-width: 35vw;
+    max-width: 30vw;
   }
   .line {
-    display: none;
+    border: 5px solid #203a4c;
+    width: auto;
+    margin: 0 1vw;
+  }
+  .spacing-w {
+    margin: 1vw;
   }
 }
