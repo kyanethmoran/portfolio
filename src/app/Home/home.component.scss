@@ -1,12 +1,9 @@
 p.header {
   text-align: center;
-  background-color: #ffffff2a;
-  margin: auto 1vw;
+  color: #ffffffea;
 
   font-size: x-large;
   font-weight: 500;
-  padding: 1vh 3vw;
-  border-radius: 5px;
 }
 button {
   width: 150px;
@@ -37,11 +34,11 @@ button:hover {
 }
 .bg-img {
   height: 15vh;
-  background: rgb(238, 174, 202);
+  background: rgb(61, 224, 190);
   background: radial-gradient(
     circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
+    rgba(61, 224, 190, 1) 0%,
+    rgba(7, 23, 101, 1) 100%
   );
 
   display: flex;
