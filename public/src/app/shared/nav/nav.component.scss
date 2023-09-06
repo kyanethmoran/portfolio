@@ -1,0 +1,25 @@
+a {
+  color: #fff;
+  text-decoration: none;
+  margin: 3vh 0;
+  width: 100px;
+}
+a:hover {
+  background-color: #fff;
+  color: #203a4c;
+  border-radius: 5px;
+}
+.spacer {
+  flex: 1 1 auto;
+}
+.spacer-nested {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+
+  background-color: #203a4c;
+  text-align: center;
+}
+.width-80 {
+  margin: 2.5vw;
+}

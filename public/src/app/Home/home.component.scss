@@ -1,0 +1,50 @@
+p.header {
+  text-align: center;
+  background-color: #fff;
+  margin: auto 1vw;
+
+  font-size: larger;
+  font-weight: 500;
+}
+button {
+  width: 150px;
+  height: 48px;
+
+  background-color: #203a4c;
+  color: #fff;
+
+  transition-duration: 0.3s;
+}
+button:hover {
+  background-color: #fff;
+  color: #203a4c;
+}
+
+.margin-10 {
+  margin: 0 10vw;
+}
+.spacing-v {
+  margin: 3vh 0;
+}
+.spacing-w {
+  margin: 0 3vw;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+.bg-img {
+  height: 40vh;
+  background-image: url("../../assets/images/homepage/mobile/image-homepage-hero.jpg");
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-items: space-around;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}

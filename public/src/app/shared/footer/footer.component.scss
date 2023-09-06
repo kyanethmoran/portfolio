@@ -1,3 +1,19 @@
+a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 1vh 0;
+
+  transition-duration: 0.3s;
+}
+
+a.text-link:hover {
+  width: 10em;
+  background-color: #ffffff;
+  color: #33323d;
+
+  border-radius: 5px;
+}
+
 .footer {
   background-color: #33323d;
   padding: 5vh 0;

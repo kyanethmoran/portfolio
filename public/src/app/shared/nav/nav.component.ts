@@ -9,4 +9,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
   templateUrl: './nav.component.html',
   styleUrls: ['./nav.component.scss'],
 })
-export class NavComponent {}
+export class NavComponent {
+  menuOpen = false;
+}
