@@ -25,10 +25,11 @@
           <mat-icon *ngIf="!menuOpen">menu</mat-icon>
           <mat-icon *ngIf="menuOpen">close</mat-icon>
         </button>
-
-        <a class="links" routerLink="/home">Home</a>
-        <a class="links" routerLink="/portfolio">Portfolio</a>
-        <a class="links" routerLink="/contact">Contact</a>
+        <div class="full">
+          <a class="links" routerLink="/home">Home</a>
+          <a class="links" routerLink="/portfolio">Portfolio</a>
+          <a class="links" routerLink="/contact">Contact</a>
+        </div>
       </div>
     </mat-toolbar-row>
     <mat-toolbar-row class="spacer-nested mobile" *ngIf="menuOpen">

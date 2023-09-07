@@ -23,7 +23,7 @@ a:hover {
 .width-80 {
   margin: 2.5vw;
 }
-.links {
+.full {
   display: none;
 }
 
@@ -38,5 +38,8 @@ a:hover {
   a:hover {
     color: #fff;
     background-color: #203a4c;
+  }
+  .full {
+    display: block;
   }
 }
