@@ -13,6 +13,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatChipsModule } from '@angular/material/chips';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { MatChipsModule } from '@angular/material/chips';
     NavComponent,
     FooterComponent,
     SkillsComponent,
+    PortfolioComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
