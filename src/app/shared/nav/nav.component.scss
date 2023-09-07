@@ -23,3 +23,20 @@ a:hover {
 .width-80 {
   margin: 2.5vw;
 }
+.links {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  .mobile {
+    display: none;
+  }
+  a {
+    color: #203a4c;
+    padding: 1vh 2vw;
+  }
+  a:hover {
+    color: #fff;
+    background-color: #203a4c;
+  }
+}
