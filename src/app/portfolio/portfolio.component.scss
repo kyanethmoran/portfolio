@@ -1,3 +1,21 @@
+a {
+  margin: 0 1vw;
+}
+
+mat-card-subtitle {
+  color: #ffffff;
+}
+
+mat-card-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 200px solid white;
+  border-left: 250px solid #325068a2;
+  width: 0;
+}
+
 .margin-3-10 {
   margin: 3vh 10vw;
 }
@@ -37,24 +55,6 @@
 
 .white-text {
   color: #ffffff;
-}
-
-a {
-  margin: 0 1vw;
-}
-
-mat-card-subtitle {
-  color: #ffffff;
-}
-
-mat-card-header::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-top: 200px solid white;
-  border-left: 250px solid #325068a2;
-  width: 0;
 }
 
 .line {
