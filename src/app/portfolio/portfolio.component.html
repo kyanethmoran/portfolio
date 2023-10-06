@@ -1,1 +1,37 @@
-<p>portfolio works!</p>
+<h1 class="title margin-10">Portfolio</h1>
+<hr class="line" />
+
+<div class="margin-3-10 responsive-grid">
+  <div *ngFor="let demo of projectsData">
+    <mat-card class="card">
+      <mat-card-header class="bg-dark white-text">
+        <mat-card-title>{{ demo.title }}</mat-card-title>
+        <mat-card-subtitle>{{ demo.subTitle }}</mat-card-subtitle>
+      </mat-card-header>
+      <img
+        mat-card-image
+        class="img"
+        src="{{ demo.img }}"
+        alt="{{ demo.alt }}"
+      />
+      <mat-card-content class="bg-dark white-text">
+        <p>{{ demo.description }}</p>
+      </mat-card-content>
+      <mat-card-actions class="bg-dark">
+        <!-- <button mat-button>Demo</button>
+        <button mat-button>Github</button> -->
+        <a href="{{ demo.demoURL }}">
+          <button mat-raised-button>Demo</button>
+        </a>
+        <a href="{{ demo.gitURL }}">
+          <!-- <button mat-button>Github</button> -->
+          <img
+            src="../../assets/images/icons/github.svg"
+            alt="github"
+            class="icon"
+          />
+        </a>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
